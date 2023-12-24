@@ -1,7 +1,4 @@
 More Magic Mirrors adds three new items:
-- Mirror of Unity: Works as a reusable Wormhole Potion. Craft it at an alchemy table from a mirror (Magic or Ice) and ten wormhole potions.
 - Mirror of Return: Works as a reusable Potion of Return. Craft it at an alchemy table from a mirror (Magic or Ice) and ten potions of return.
-- Mirror of Travel: Combines functionality of the previous mirrors into one item. Craft it at a crystal ball from the Mirror of Unity and Mirror of Return.
 
 Art by capnkiddd
-Unity and Travel suggestion by shadowyuki

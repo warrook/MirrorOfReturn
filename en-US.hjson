@@ -1,0 +1,14 @@
+Mods: {
+	MirrorOfReturn: {
+		Items: {
+			MirrorOfReturn: {
+				DisplayName: Mirror of Return
+				Tooltip:
+					'''
+					Teleports you home and creates a portal
+					Use portal to return when you are done
+					'''
+			}
+		}
+	}
+}

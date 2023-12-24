@@ -7,13 +7,6 @@ namespace MirrorOfReturn.Items
 {
     public class MirrorOfReturn : ModItem
     {
-        public override void SetStaticDefaults()
-        {
-            var l = Lang.GetTooltip(ItemID.PotionOfReturn);
-            //Tooltip.SetDefault("Teleports you home and creates a portal\nUse portal to return when you are done");
-            Tooltip.SetDefault($"{l.GetLine(0)}\n{l.GetLine(1)}");
-        }
-
         public override void SetDefaults()
         {
             Item.width = 20;
@@ -29,11 +22,11 @@ namespace MirrorOfReturn.Items
 
         public override void AddRecipes()
         {
-            Recipe recipe = CreateRecipe();
-            recipe.AddRecipeGroup(nameof(ItemID.MagicMirror));
-            recipe.AddIngredient(ItemID.PotionOfReturn, 10);
-            recipe.AddTile(TileID.AlchemyTable);
-            recipe.Register();
+            CreateRecipe()
+                .AddRecipeGroup(nameof(ItemID.MagicMirror))
+                .AddIngredient(ItemID.PotionOfReturn, 10)
+                .AddTile(TileID.AlchemyTable)
+                .Register();
         }
 
         public override bool? UseItem(Player player)
